@@ -1,0 +1,122 @@
+
+{
+  "name": "pop_order",
+  "title": "订单",
+  "schemas": [
+    {
+      "name": "order_notes",
+      "title": "订单备注",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "shipping_fee",
+      "title": "运费",
+      "type": "Number"
+    },
+    {
+      "name": "total",
+      "title": "订单总价",
+      "type": "Number"
+    },
+    {
+      "name": "final_total",
+      "title": "实付金额",
+      "type": "Number"
+    },
+    {
+      "name": "tracking_number",
+      "title": "物流单号",
+      "type": "String"
+    },
+    {
+      "name": "shipping_address",
+      "title": "收货地址",
+      "type": "Object",
+      "properties": {
+        "name": {
+          "type": "String",
+          "title": "收货人姓名"
+        },
+        "phone": {
+          "type": "String",
+          "title": "联系电话"
+        },
+        "province": {
+          "type": "String",
+          "title": "省份"
+        },
+        "city": {
+          "type": "String",
+          "title": "城市"
+        },
+        "district": {
+          "type": "String",
+          "title": "区县"
+        },
+        "address": {
+          "type": "String",
+          "title": "详细地址"
+        },
+        "postal_code": {
+          "type": "String",
+          "title": "邮政编码"
+        }
+      }
+    },
+    {
+      "name": "items",
+      "title": "商品快照列表",
+      "type": "Array",
+      "items": {
+        "type": "Object",
+        "properties": {
+          "product_id": {
+            "type": "String",
+            "title": "商品ID"
+          },
+          "product_name": {
+            "type": "String",
+            "title": "商品名称"
+          },
+          "specification": {
+            "type": "String",
+            "title": "规格"
+          },
+          "price": {
+            "type": "Number",
+            "title": "单价"
+          },
+          "quantity": {
+            "type": "Number",
+            "title": "数量"
+          },
+          "image": {
+            "type": "Image",
+            "title": "商品图片"
+          },
+          "subtotal": {
+            "type": "Number",
+            "title": "小计"
+          }
+        }
+      }
+    },
+    {
+      "name": "delivered_at",
+      "title": "送达时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "payment_method",
+      "title": "支付方式",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "订单状态",
+      "type": "String"
+    }
+  ]
+}
+  

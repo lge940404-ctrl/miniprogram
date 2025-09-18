@@ -1,0 +1,202 @@
+
+[
+  {
+    "_id": "1",
+    "product_id": "POP-001",
+    "name": "初音未来 限量版手办",
+    "category": "动漫手办",
+    "status": "上架",
+    "main_image": "https://images.unsplash.com/photo-1601814933824-fd0187ae6648?w=800&h=800&fit=crop",
+    "image_gallery": [
+      "https://images.unsplash.com/photo-1601814933824-fd0187ae6648?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=800&h=800&fit=crop"
+    ],
+    "description": "超人气虚拟歌姬初音未来的精美手办，采用高品质PVC材质制作，细节精致，色彩鲜艳。高度约25cm，适合收藏和展示。",
+    "rating": 4.8,
+    "reviews": 128,
+    "tags": ["初音未来", "手办", "限量版", "收藏"],
+    "specifications": [
+      {
+        "name": "标准版",
+        "original_price": 399,
+        "discount": 25,
+        "price": 299,
+        "stock": 15,
+        "sku": "POP-001-STD"
+      },
+      {
+        "name": "限量版",
+        "original_price": 499,
+        "discount": 20,
+        "price": 399,
+        "stock": 8,
+        "sku": "POP-001-LTD"
+      },
+      {
+        "name": "豪华版",
+        "original_price": 799,
+        "discount": 25,
+        "price": 599,
+        "stock": 5,
+        "sku": "POP-001-DLX"
+      }
+    ],
+    "createdAt": 1693804800000,
+    "updatedAt": 1693804800000
+  },
+  {
+    "_id": "2",
+    "product_id": "POP-002",
+    "name": "EVA初号机 模型",
+    "category": "机甲模型",
+    "status": "上架",
+    "main_image": "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?w=800&h=800&fit=crop",
+    "image_gallery": [
+      "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&h=800&fit=crop"
+    ],
+    "description": "新世纪福音战士初号机精密模型，采用合金材质，关节可动，附带多种武器配件。高度约30cm，完美还原动画造型。",
+    "rating": 4.9,
+    "reviews": 256,
+    "tags": ["EVA", "初号机", "合金模型", "可动"],
+    "specifications": [
+      {
+        "name": "标准版",
+        "original_price": 599,
+        "discount": 0,
+        "price": 599,
+        "stock": 20,
+        "sku": "POP-002-STD"
+      },
+      {
+        "name": "限量版",
+        "original_price": 999,
+        "discount": 10,
+        "price": 899,
+        "stock": 10,
+        "sku": "POP-002-LTD"
+      }
+    ],
+    "createdAt": 1693891200000,
+    "updatedAt": 1693891200000
+  },
+  {
+    "_id": "3",
+    "product_id": "POP-003",
+    "name": "鬼灭之刃 炭治郎",
+    "category": "动漫手办",
+    "status": "上架",
+    "main_image": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&h=800&fit=crop",
+    "image_gallery": [
+      "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1611689342806-0863700ce1e4?w=800&h=800&fit=crop"
+    ],
+    "description": "鬼灭之刃主角灶门炭治郎的精致手办，采用高品质PVC材质，细节刻画入微。高度约22cm，包含日轮刀配件。",
+    "rating": 4.7,
+    "reviews": 189,
+    "tags": ["鬼灭之刃", "炭治郎", "日轮刀", "动漫"],
+    "specifications": [
+      {
+        "name": "标准版",
+        "original_price": 399,
+        "discount": 0,
+        "price": 399,
+        "stock": 25,
+        "sku": "POP-003-STD"
+      },
+      {
+        "name": "限量版",
+        "original_price": 549,
+        "discount": 10,
+        "price": 499,
+        "stock": 12,
+        "sku": "POP-003-LTD"
+      },
+      {
+        "name": "豪华版",
+        "original_price": 899,
+        "discount": 25,
+        "price": 699,
+        "stock": 8,
+        "sku": "POP-003-DLX"
+      }
+    ],
+    "createdAt": 1693977600000,
+    "updatedAt": 1693977600000
+  },
+  {
+    "_id": "4",
+    "product_id": "POP-004",
+    "name": "进击的巨人 艾伦",
+    "category": "动漫手办",
+    "status": "上架",
+    "main_image": "https://images.unsplash.com/photo-1611689342806-0863700ce1e4?w=800&h=800&fit=crop",
+    "image_gallery": [
+      "https://images.unsplash.com/photo-1611689342806-0863700ce1e4?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=800&h=800&fit=crop"
+    ],
+    "description": "进击的巨人主角艾伦·耶格尔的战斗造型手办，立体机动装置细节精致，高度约24cm，完美还原动画中的经典造型。",
+    "rating": 4.6,
+    "reviews": 167,
+    "tags": ["进击的巨人", "艾伦", "立体机动装置", "战斗造型"],
+    "specifications": [
+      {
+        "name": "标准版",
+        "original_price": 459,
+        "discount": 0,
+        "price": 459,
+        "stock": 18,
+        "sku": "POP-004-STD"
+      },
+      {
+        "name": "限量版",
+        "original_price": 799,
+        "discount": 20,
+        "price": 659,
+        "stock": 9,
+        "sku": "POP-004-LTD"
+      }
+    ],
+    "createdAt": 1694064000000,
+    "updatedAt": 1694064000000
+  },
+  {
+    "_id": "5",
+    "product_id": "POP-005",
+    "name": "海贼王 路飞",
+    "category": "动漫手办",
+    "status": "上架",
+    "main_image": "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=800&h=800&fit=crop",
+    "image_gallery": [
+      "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?w=800&h=800&fit=crop"
+    ],
+    "description": "海贼王主角蒙奇·D·路飞的经典造型手办，橡胶果实能力者的标志性笑容，高度约20cm，附带草帽配件。",
+    "rating": 4.8,
+    "reviews": 234,
+    "tags": ["海贼王", "路飞", "草帽", "橡胶果实"],
+    "specifications": [
+      {
+        "name": "标准版",
+        "original_price": 349,
+        "discount": 0,
+        "price": 349,
+        "stock": 30,
+        "sku": "POP-005-STD"
+      },
+      {
+        "name": "限量版",
+        "original_price": 499,
+        "discount": 10,
+        "price": 449,
+        "stock": 15,
+        "sku": "POP-005-LTD"
+      }
+    ],
+    "createdAt": 1694150400000,
+    "updatedAt": 1694150400000
+  }
+]
+  

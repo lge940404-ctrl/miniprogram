@@ -1,0 +1,98 @@
+
+{
+  "name": "pop_product",
+  "title": "动漫手办商品",
+  "schemas": [
+    {
+      "name": "product_id",
+      "title": "商品ID",
+      "type": "String"
+    },
+    {
+      "name": "name",
+      "title": "商品名称",
+      "type": "String"
+    },
+    {
+      "name": "category",
+      "title": "分类",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "String"
+    },
+    {
+      "name": "main_image",
+      "title": "主图URL",
+      "type": "Image"
+    },
+    {
+      "name": "image_gallery",
+      "title": "图集URLs",
+      "type": "Array",
+      "items": {
+        "type": "Image"
+      }
+    },
+    {
+      "name": "description",
+      "title": "商品描述",
+      "type": "RichText"
+    },
+    {
+      "name": "rating",
+      "title": "评分",
+      "type": "Number"
+    },
+    {
+      "name": "reviews",
+      "title": "评价数",
+      "type": "Number"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "specifications",
+      "title": "规格",
+      "type": "Array",
+      "items": {
+        "type": "Object",
+        "properties": {
+          "name": {
+            "type": "String",
+            "title": "规格名称"
+          },
+          "original_price": {
+            "type": "Number",
+            "title": "原价"
+          },
+          "discount": {
+            "type": "Number",
+            "title": "折扣百分比"
+          },
+          "price": {
+            "type": "Number",
+            "title": "折扣价"
+          },
+          "stock": {
+            "type": "Number",
+            "title": "库存"
+          },
+          "sku": {
+            "type": "String",
+            "title": "SKU编码"
+          }
+        }
+      }
+    }
+  ]
+}
+  
